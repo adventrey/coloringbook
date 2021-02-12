@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/sett"
+        android:orderInCategory="101"
+        android:title="@string/action_more"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_setting"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/action_settings"
+                app:showAsAction="never|withText" />
+            <item
+                android:id="@+id/action_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/action_share"
+                app:showAsAction="never|withText" />
+            <item
+                android:id="@+id/action_rateus"
+                android:icon="@drawable/ic_rateus"
+                android:title="@string/action_rateus"
+                app:showAsAction="never|withText" />
+
+        </menu>
+    </item>
+
+</menu>

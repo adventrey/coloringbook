@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgc"
+
+    tools:context="com.anggriaapps.littleponycoloringbook.Transtition">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/xx_play"
+        android:layout_width="188dp"
+        android:layout_height="249dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="202dp"
+        android:layout_marginRight="202dp"
+        android:layout_marginBottom="22dp"
+        android:src="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/xx_policy"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        app:srcCompat="@drawable/privacypolicy" />
+
+    <ImageView
+        android:id="@+id/xx_rate"
+        android:layout_width="68dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/xx_policy"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="-62dp"
+        android:layout_marginRight="-62dp"
+        android:layout_marginBottom="607dp"
+        android:layout_toStartOf="@+id/xx_policy"
+        android:layout_toLeftOf="@+id/xx_policy"
+        app:srcCompat="@drawable/rate1" />
+
+    <ImageView
+        android:id="@+id/xx_lain"
+        android:layout_width="158dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="-11dp"
+        android:layout_marginLeft="-11dp"
+        android:layout_marginEnd="198dp"
+        android:layout_marginRight="198dp"
+        android:layout_toStartOf="@+id/xx_rate"
+        android:layout_toLeftOf="@+id/xx_rate"
+        app:srcCompat="@drawable/lain" />
+
+</RelativeLayout>

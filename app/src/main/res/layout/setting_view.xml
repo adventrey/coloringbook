@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <Button
+        android:id="@+id/clearcache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/maincolor_round_bg"
+        android:padding="3dp"
+        android:text="@string/clearcache"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/deletePaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deleteAllPaints"
+        android:padding="3dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/maincolor_round_bg"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F894FF"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/colorview"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/advancelay2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:visibility="visible">
+
+            <com.anggriaapps.littleponycoloringbook.view.ImageButton_define_secondLay
+                android:id="@+id/undo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_undo"
+                android:text="@string/undo"
+                android:textColor="@color/gray" />
+
+            <com.anggriaapps.littleponycoloringbook.view.ImageButton_define_secondLay
+                android:id="@+id/redo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_redo"
+                android:text="@string/redo"
+                android:textColor="@color/gray" />
+
+            <com.anggriaapps.littleponycoloringbook.view.ImageCheckBox_define
+                android:id="@+id/pickcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_picker_selector"
+                android:text="@string/pickcolor"
+                android:textColor="@color/gray" />
+
+            <com.anggriaapps.littleponycoloringbook.view.ImageCheckBox_define
+                android:id="@+id/drawline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_drawline_selector"
+                android:text="@string/drawLine"
+                android:textColor="@color/gray" />
+
+            <com.anggriaapps.littleponycoloringbook.view.ImageCheckBox_define
+                android:id="@+id/jianbian_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_gradual_selector"
+                android:text="@string/normal_color"
+                android:textColor="@color/gray" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/colorview"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1" />
+
+</RelativeLayout>

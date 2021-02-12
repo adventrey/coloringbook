@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Littyle Pony Coloring Book</string>
+
+    <string name="advance">MORE</string>
+    <string name="undo">UNDO</string>
+    <string name="redo">REDO</string>
+    <string name="save">SAVE</string>
+    <string name="share">SHARE</string>
+    <string name="ok">OK</string>    
+    <string name="quit">No</string> 
+
+      
+    <string name="delete">DELETE</string>
+      
+    <string name="repaint">REPAINT</string>
+
+    //for main_menu
+    <string name="action_settings">MORE SETTING</string>
+    <string name="action_share">SHARE</string>
+    <string name="action_rateus">RATE US</string> 
+    <string name="action_exit">EXIt</string>
+
+    <string name="quitorsave">Before leaving, need to save your current work?</string>    
+
+
+    <string name="grabdata">Loading Data...</string>
+    <string name="loadpicture">Loading Paint Image</string>
+    <string name="loadpicturefailed">Loading Failed, Please retry.</string>
+
+    <string name="savingimage">Save to Local</string>
+    <string name="saveFailed">Save Failed</string>
+    <string name="saveSuccess">Your Paint has been saved in：</string>
+    <string name="pleaseselect">Please Select</string>
+    <string name="sharemywork">Download from Here. </string> 
+    <string name="open">READ</string>    
+    <string name="openfailed">Fast fingertips to create one now!</string>   
+       
+    <string name="action_search">Local Search</string>   
+    <string name="action_more">MORE</string>   
+       
+    <string name="opensuccess">has opened for you to save work, you can continue to create it! \n
+        Click Undo to return the original image!
+    </string>    
+    <string name="undostacksize">Undo steps</string>    
+    <string name="loadfailed">load data failed</string>    
+    <string name="commentDialogContent">Come and give me a five-star, you can free download
+        new artworks!
+    </string>    
+    <string name="nexttime">Later</string>    
+    <string name="gocomment">Give me Five</string>    
+    <string name="clearcache">clear all images Cache not your\n painting work.</string>
+      
+    <string name="clearcacheing">Cleaning the cache, please wait</string>
+      
+    <string name="clearcachesuccess">Clear success</string>
+      
+    <string name="themelist">Theme List</string>
+      
+    <string name="pleasepressexit">press again to Exit</string>
+      
+
+    <string name="loading">Loading ...</string>
+      
+    <string name="secretGarden">Secret Garden</string>
+      
+    <string name="welcomeusethis">Welcome to Finger Coloring</string>
+      
+    <string name="paintHint">select favorite color then touch image to a blank area \n two fingers
+        can zoom the image.
+    </string>
+      
+    <string name="paintHint2">After opening a saved image, press Undo to return to the original,
+        restart to coloring.
+    </string>
+      
+      
+    <string name="confirmRepaint">Redrawing will delete the saved works, determined to redraw
+        it?
+    </string>
+      
+    <string name="cancel">Cancel</string>
+      
+     
+    <string name="giveme5stars">Give us FIVE stars.</string>
+      
+
+    <string name="sharemeunlock">Share with your Friends and Family.
+    </string>
+      
+      
+    <string name="localPaint">Local Paints</string>
+      
+      
+    <string name="nopaint">Cannot find any data!</string>
+      
+    <string name="deletePaintFailed">Delete Paints failed</string>
+      
+    <string name="deleteAllPaints">   Delete all your saved Painting   </string>
+      
+    <string name="confirmDeleteAllPaints">Warning! Are you sure to delete all your paints ?</string>
+      
+    <string name="deleteAllPaintsSuccess">Delete completed!</string>
+      
+    <string name="lastModifty">Last modified</string>
+      
+    <string name="pickcolor">PICK</string>
+
+    <string name="pickcolorhint">Touch the area you would like, to take the color.</string>
+      
+    <string name="pickcolorerror">Touch the correct color location.</string>
+      
+    <string name="drawLine">AddLine</string>
+      
+    <string name="drawLineHint">Touch the image to set the start point.</string>
+      
+    <string name="drawLineHint_second">Touch the image to set the end point.</string>
+      
+    <string name="drawLineHint_finish">Touch valid image area.</string>
+      
+    <string name="allPicture">Cached Pics</string>
+      
+    <string name="dontshownexttime">Don\'t show next time.</string>
+      
+    <string name="buxianfunction">Draw Lines</string>
+      
+    <string name="buxianfunctionhint">Now you can draw lines in the picture, and then fill it! \n First, click anywhere on the image, set the start point.
+    </string>
+      
+    <string name="buxianfirstpointsethint">Then touch the picture to set the end position, the system will automatically complete the line.
+    </string>
+      
+    <string name="buxiannextpointsethint">Touch the other areas to continue draw linesUndo button can be erased the pre line.
+    </string>
+      
+    <string name="pullfacebookloging">Connect to Facebook login</string>
+      
+    <string name="menu">MENU</string>
+    <string name="jianbian_color">Gradual</string>
+    <string name="normal_color">Normal</string>
+    <string name="gradualModel">Gradual Model</string>
+    <string name="gradualModelHint">Advanced features - gradient colors. Note: You can not cover other colors after a gradient color, if you want to modify, please undo first!</string>
+</resources>
